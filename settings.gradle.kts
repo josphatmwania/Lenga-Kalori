@@ -16,7 +16,6 @@ dependencyResolutionManagement {
 rootProject.name = "LengaKalori"
 include(":app")
 include(":core")
-include(":core-ui")
 include(":onboarding:onboarding_presentation")
 include(":onboarding:onboarding_domain")
 include(":tracker:tracker_data")
