@@ -1,6 +1,5 @@
 package com.josphat.core_ui
 
-import android.graphics.Color
 import androidx.compose.ui.graphics.Color
 
 val BrightGreen = Color(0xFF00C713)
