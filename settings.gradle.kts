@@ -17,3 +17,4 @@ rootProject.name = "LengaKalori"
 include(":app")
 include(":core")
 include(":core-ui")
+include(":onboarding:onboarding_presentation")
