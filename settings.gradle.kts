@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "LengaKalori"
 include(":app")
 include(":core")
+include(":core-ui")
