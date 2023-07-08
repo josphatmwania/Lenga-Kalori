@@ -3,11 +3,9 @@ package com.josphat.lengakalori.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
-
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
-import androidx.compose.material3.darkColorScheme
 import com.josphat.core_ui.Dimensions
 import com.josphat.core_ui.LocalSpacing
 import com.josphat.core_ui.BrightGreen
