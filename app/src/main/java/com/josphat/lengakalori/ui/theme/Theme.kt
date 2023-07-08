@@ -12,6 +12,12 @@ import com.josphat.core_ui.BrightGreen
 import com.josphat.core_ui.DarkGray
 import com.josphat.core_ui.*
 
+/**
+ * I'm having difficulties importing material3 dependencies
+ * Help me fix the errors in theme package in App app module
+ * I'm using core_ui module so define color, dimensions and shape for the entire project.
+ *
+ */
 
 private val DarkColorPalette = darkColors(
     primary = BrightGreen,
