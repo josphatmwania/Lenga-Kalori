@@ -5,13 +5,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.currentCompositionLocalContext
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.semantics.SemanticsProperties.Text
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.material3.Text
-//import androidx.compose.material3.TextStyle
 
 
 
@@ -21,10 +18,8 @@ fun ActionButton(
     onClick: () -> Unit,
     modifier: Modifier,
     isEnabled: Boolean = false,
-    /**
-     * Todo
-     */
-//    textStyle: TextStyle = MaterialTheme.typography.labelMedium
+
+//    textStyle: TextStyle = MaterialTheme.typography.
 ) {
     Button(
         onClick = onClick,
@@ -32,15 +27,15 @@ fun ActionButton(
         shape = RoundedCornerShape(100.dp)
 
     ) {
-        Text{
+        Text(
             text = text,
-//            style = textStyle,
+//            style = TextStyle.,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.padding(25.dp)
 
 
 
-        }
+        )
     }
 
 
